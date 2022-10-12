@@ -1,36 +1,9 @@
-   0 cd /home
-   1 mkdir animals
-   2 ls
-   3 cd /home/animals
-   4 mkdir dogs
-   5 mkdir cats
-   6 mkdir fish
-   7 ls
-   8 cd /home/animals/dogs
-   9 touch pluto.txt
-  10 ls
-  11 cd..
-  12 cd ..
-  13 cd /home/animals/cats
-  14 touch garfield.txt
-  15 ls
-  16 cd ..
-  17 cd /home/animals/fish/
-  18 touch nemo.txt
-  19 ls
-  20 cd /home
-  21 tree /home
-  22 cd ..
-  23 cd /tmp/
-  24 touch adam.txt
-  25 ls
-  26 cd ..
-  27 mkdir -p /home/humans
-  28 tree /home
-  29 cp /tmp/adam.txt /home/humans/
-  30 tree /home
-  31 cd /tmp
-  32 touch evA.txt
-  33 ls
-  34 cd ..
-  35 history > history.txt
+   0 mkdir -p /home/user/start
+   1 touch /home/user/start/1.txt
+   2 echo "Start" > 1.txt
+   3 date >> 1.txt
+   4 mkdir -p /opt/task
+   5 cp /home/user/start/1.txt /opt/task/
+   6 ls -la / | tail -4 >> 1.txt
+   7 cat 1.txt
+   8 history > history.txt
